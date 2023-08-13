@@ -5,7 +5,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Util {
-    // реализуйте настройку соеденения с БД
     public static Connection getConnection() throws SQLException {
         //Создаем соеденение с БД, чтобы можно было выполнять запросы
         String url = "jdbc:mysql://localhost:3306/mydatabase";
